@@ -13,6 +13,11 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
+    'github' => [
+    'client_id' => 'ac53a71733064a061bb9',
+    'client_secret' => 'e94c8036a20bed245cd1e90d0265049fd78c098f',
+    'redirect' => 'http://127.0.0.1:8000/LoginCallBack',
+    ],
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
